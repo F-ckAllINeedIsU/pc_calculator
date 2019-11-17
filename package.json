@@ -1,0 +1,42 @@
+{
+  "name": "pc_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "appId": "pc_calculator.app",
+    "directories": {
+      "app": "./"
+    },
+    "productName": "计算器",
+    "dmg": {
+      "icon": "./images/mac.icns",
+      "window": {
+        "x": "200",
+        "y": "150",
+        "width": 500,
+        "height": 400
+      }
+    },
+    "mac": {
+      "icon": "./images/mac.icns"
+    },
+    "win": {
+      "icon": "./images/icon.ico"
+    }
+  },
+  "scripts": {
+    "dev": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildmac": "electron-builder --platform=mac --arch=x64",
+    "buildwin": "electron-builder --platform=win --arch=x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "electron": "^7.1.1",
+    "electron-builder": "^22.1.0"
+  }
+}
