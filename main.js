@@ -17,7 +17,7 @@ function pc_calculator_createWindow() {
     // 高度
     height: 490,
     // 标题
-    title: '黑马计算器',
+    title: '计算器',
     // resizable: false,
     webPreferences: {
       nodeIntegration: true,
