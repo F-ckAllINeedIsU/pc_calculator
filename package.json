@@ -39,6 +39,6 @@
   },
   "dependencies": {
     "electron": "^7.1.1",
-    "mathjs": "^6.2.3"
+    "mathjs": "^7.5.1"
   }
 }
